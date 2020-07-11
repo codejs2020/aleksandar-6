@@ -23,12 +23,10 @@
   "dependencies": {},
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
-      "npm run lint:js",
-      "git add"
+      "npm run lint:js"
     ],
     "src/**/*.scss": [
-      "npm run lint:css",
-      "git add"
+      "npm run lint:css"
     ]
   },
   "husky": {
